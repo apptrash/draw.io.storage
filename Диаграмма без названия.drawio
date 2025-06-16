@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="27.1.5">
+  <diagram name="Страница — 1" id="ZVWgP0xxi2wQhGe-D-gS">
+    <mxGraphModel dx="1234" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UNi9or6etLdbR3E1mCp4-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Вопросы на кикофф встречу по 759&lt;/h1&gt;&lt;p&gt;1. При переходе с 759-го экрана дальше по диплинку мы теряем coreCode, который передается на 759-ый экран. Забыли или так и должно быть?&lt;/p&gt;&lt;p&gt;2. Получается, что в алгоритме нельзя не промотировать ничего, т.к. у следующих экранов входной coreCode обязательный&lt;/p&gt;&lt;p&gt;3. Поскольку экран 759 не использует финальный код подписки, может лучше его будут вычислять экраны, которым он нужен? (422, 409)&lt;/p&gt;&lt;p&gt;4. В документе с алгоритмом в разделе &quot;1. Общая информация&quot; непонятно, зачем нужен нужны макеты дизайна в фигме&lt;/p&gt;&lt;p&gt;5. В документе с алгоритмом в разделе &quot;1. Общая информация&quot; неактульные экраны в строке &quot;Используется&quot;&lt;/p&gt;&lt;p&gt;6. В документе с алгоритмом в разделе &quot;1. Общая информация&quot; пустая строчка &quot;Эпик / Задача&quot;&lt;/p&gt;&lt;p&gt;7. В документе с алгоритмом в разделе &quot;2. Методы, конфиги и данные&quot; указан config_tbundle.json но он нигде не фигурирует в алгоритме&lt;/p&gt;&lt;p&gt;8. В документе с алгоритмом в разделе &quot;3. Алгоритм&quot; намешаны в разных комбинациях (лево / право) блоки с iOS / Android&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="790" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UNi9or6etLdbR3E1mCp4-2" target="UNi9or6etLdbR3E1mCp4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UNi9or6etLdbR3E1mCp4-2" target="UNi9or6etLdbR3E1mCp4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-2" value="759" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNi9or6etLdbR3E1mCp4-3" target="UNi9or6etLdbR3E1mCp4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-3" value="422" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UNi9or6etLdbR3E1mCp4-4" target="UNi9or6etLdbR3E1mCp4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-4" value="673" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UNi9or6etLdbR3E1mCp4-7" target="UNi9or6etLdbR3E1mCp4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-7" value="Вызывающий код" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-9" value="finalCoreCode" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="419" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-10" value="finalCoreCode" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-13" value="finalCoreCode" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-14" value="finalCoreCode" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="359" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-15" value="409" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-17" value="finalCoreCode (если нашел в bundles или pro)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="299" y="830" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UNi9or6etLdbR3E1mCp4-18" value="Схема передачи финального кода подписки от 759-го экрана и дальше" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="25" y="320" width="780" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
